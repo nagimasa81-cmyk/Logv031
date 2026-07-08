@@ -1,0 +1,55 @@
+
+name: Build Complaint Service Hub
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install Dependencies
+        shell: cmd
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller
+
+          if exist requirements.txt (
+            pip install -r requirements.txt
+          )
+
+      - name: Verify Source Files
+        shell: cmd
+        run: |
+          if not exist main.py (
+            echo main.py not found
+            exit /b 1
+          )
+
+      - name: Run BAT
+        shell: cmd
+        run: 01_BUILD_EXE_PYINSTALLER.bat
+
+      - name: Verify ZIP
+        shell: cmd
+        run: |
+          if not exist Complaint_Service_Hub_Distribution.zip (
+            echo ZIP file was not created
+            dir
+            exit /b 1
+          )
+
+      - name: Upload ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: Complaint_Service_Hub_Distribution
+          path: Complaint_Service_Hub_Distribution.zip
