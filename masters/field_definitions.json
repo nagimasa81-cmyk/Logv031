@@ -1,0 +1,23 @@
+{
+  "countries": ["India", "Japan", "Korea", "Thailand", "Philippines", "Taiwan", "China"],
+  "country_language": {
+    "India": "en",
+    "Japan": "ja",
+    "Korea": "ko",
+    "Thailand": "th",
+    "Philippines": "en-PH",
+    "Taiwan": "zh-TW",
+    "China": "zh-CN"
+  },
+  "dropdowns": {
+    "complaint_source": ["", "Customer", "Application Specialist", "Service", "Distributor", "Internal"],
+    "treatment_application": ["", "Neurosurgery", "Oncology", "Essential Tremor", "Pain", "Other"],
+    "suspected_adverse_event": ["", "No", "Yes", "Unknown"],
+    "potential_safety_issue": ["", "No", "Yes", "Unknown"],
+    "usage_type": ["", "Clinical", "Research", "Service", "Training"],
+    "affected_treatment": ["", "No", "Yes", "Unknown"],
+    "treatment_indication": ["", "ET", "PD", "Pain", "Other"],
+    "service_case_priority": ["", "Low", "Medium", "High", "Critical"],
+    "system_status": ["", "Operational", "Down", "Limited Use", "Unknown"]
+  }
+}

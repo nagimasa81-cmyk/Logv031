@@ -1,0 +1,14 @@
+{
+  "profile_name": "Default Salesforce Complaint Layout",
+  "browser": "Microsoft Edge",
+  "start_mode": "click_anywhere_in_form_then_fill_all",
+  "save_submit_auto_click": false,
+  "fields": [
+    {"label": "Subject", "source": "complaint_subject", "input_type": "text"},
+    {"label": "Description", "source": "complaint_description", "input_type": "textarea"},
+    {"label": "Account", "source": "hospital_name", "input_type": "lookup"},
+    {"label": "System Serial", "source": "system_serial", "input_type": "text"},
+    {"label": "Priority", "source": "service_case_priority", "input_type": "dropdown"},
+    {"label": "Status", "source": "system_status", "input_type": "dropdown"}
+  ]
+}

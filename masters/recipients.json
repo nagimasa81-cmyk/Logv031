@@ -1,0 +1,14 @@
+{
+  "India": {
+    "to": [],
+    "cc": [],
+    "improvement_to": [],
+    "improvement_cc": []
+  },
+  "Japan": {"to": [], "cc": [], "improvement_to": [], "improvement_cc": []},
+  "Korea": {"to": [], "cc": [], "improvement_to": [], "improvement_cc": []},
+  "Thailand": {"to": [], "cc": [], "improvement_to": [], "improvement_cc": []},
+  "Philippines": {"to": [], "cc": [], "improvement_to": [], "improvement_cc": []},
+  "Taiwan": {"to": [], "cc": [], "improvement_to": [], "improvement_cc": []},
+  "China": {"to": [], "cc": [], "improvement_to": [], "improvement_cc": []}
+}

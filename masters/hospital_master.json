@@ -1,0 +1,20 @@
+[
+  {
+    "country": "India",
+    "hospital_name": "CMC Hospital",
+    "system_serial": "4231",
+    "system_number": "",
+    "software_versions": ["", "7.33", "7.34", "7.35"],
+    "contacts": [""],
+    "region": "India"
+  },
+  {
+    "country": "Japan",
+    "hospital_name": "Sample Japan Hospital",
+    "system_serial": "JP0000",
+    "system_number": "",
+    "software_versions": [""],
+    "contacts": [""],
+    "region": "Japan"
+  }
+]

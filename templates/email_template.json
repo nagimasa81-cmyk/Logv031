@@ -1,0 +1,14 @@
+{
+  "complaint": {
+    "subject": "Complaint Report - {hospital_name} - Serial {system_serial} - {complaint_subject}",
+    "body": "Dear Team,\n\nPlease find the complaint information below.\n\nCountry: {country}\nHospital: {hospital_name}\nSystem Serial: {system_serial}\nSystem Number: {system_number}\nSoftware Version: {software_version}\n\nComplaint Subject:\n{complaint_subject}\n\nComplaint Description:\n{complaint_description}\n\nComplaint Source: {complaint_source}\nTreatment Application: {treatment_application}\nSuspected Adverse Event: {suspected_adverse_event}\nPotential Safety Issue: {potential_safety_issue}\nUsage Type: {usage_type}\nAffected Treatment: {affected_treatment}\nTreatment Indication: {treatment_indication}\nService Case Priority: {service_case_priority}\nSystem Status: {system_status}\n\nBest regards,"
+  },
+  "add_system_number": {
+    "subject": "Master Update Request - Add System Number - {hospital_name} - {system_serial}",
+    "body": "Dear Team,\n\nPlease add or update the following system information in the master list.\n\nCountry: {country}\nHospital: {hospital_name}\nSystem Serial: {system_serial}\nSystem Number: {system_number}\nSoftware Version: {software_version}\nRequest Reason: {request_reason}\n\nBest regards,"
+  },
+  "improvement": {
+    "subject": "Complaint Tool Improvement Request - {country}",
+    "body": "Dear Team,\n\nPlease review the following improvement request.\n\nCountry: {country}\nRequest Type: {request_type}\nDescription:\n{request_description}\n\nBest regards,"
+  }
+}

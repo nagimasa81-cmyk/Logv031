@@ -1,0 +1,189 @@
+{
+  "companies": [
+    {
+      "company_id": "insightec",
+      "display_name": "InSightec",
+      "countries": [
+        "Japan",
+        "Korea",
+        "Taiwan",
+        "China",
+        "India",
+        "Thailand",
+        "Philippines",
+        "Australia",
+        "Vietnam"
+      ],
+      "requires_password": true,
+      "password": "5963",
+      "features_user": [
+        "complaint_tool",
+        "salesforce_auto_input",
+        "update_master",
+        "settings"
+      ],
+      "features_admin": [
+        "complaint_tool",
+        "salesforce_auto_input",
+        "update_master",
+        "master_zip_builder",
+        "settings",
+        "log_viewer",
+        "about"
+      ],
+      "users": [
+        {
+          "user_id": "hara",
+          "name": "Hara",
+          "email": "",
+          "role": "user"
+        },
+        {
+          "user_id": "roger",
+          "name": "Roger",
+          "email": "",
+          "role": "user"
+        },
+        {
+          "user_id": "nakahodo",
+          "name": "Nakahodo",
+          "email": "",
+          "role": "user"
+        },
+        {
+          "user_id": "yamada",
+          "name": "Yamada",
+          "email": "",
+          "role": "user"
+        },
+        {
+          "user_id": "homitsu",
+          "name": "Homitsu",
+          "email": "",
+          "role": "user"
+        },
+        {
+          "user_id": "masaki",
+          "name": "Masaki",
+          "email": "",
+          "role": "admin",
+          "admin_switch_allowed": true
+        }
+      ],
+      "default_language": "ja"
+    },
+    {
+      "company_id": "gems_korea",
+      "display_name": "GEMS (Korea)",
+      "countries": [
+        "Korea"
+      ],
+      "requires_password": false,
+      "features_user": [
+        "complaint_tool",
+        "update_master",
+        "settings"
+      ],
+      "users": [
+        {
+          "user_id": "gems_shared",
+          "name": "GEMS Shared User",
+          "email": "",
+          "role": "shared"
+        }
+      ],
+      "default_language": "ko"
+    },
+    {
+      "company_id": "device_technology",
+      "display_name": "Device Technology",
+      "countries": [
+        "Australia",
+        "Thailand",
+        "Vietnam",
+        "Philippines"
+      ],
+      "requires_password": false,
+      "features_user": [
+        "complaint_tool",
+        "update_master",
+        "settings"
+      ],
+      "users": [
+        {
+          "user_id": "dt_shared",
+          "name": "Device Technology Shared User",
+          "email": "",
+          "role": "shared"
+        }
+      ],
+      "default_language": "en"
+    },
+    {
+      "company_id": "vattikuti",
+      "display_name": "Vattikuti (India)",
+      "countries": [
+        "India"
+      ],
+      "requires_password": false,
+      "features_user": [
+        "complaint_tool",
+        "update_master",
+        "settings"
+      ],
+      "users": [
+        {
+          "user_id": "vattikuti_shared",
+          "name": "Vattikuti Shared User",
+          "email": "",
+          "role": "shared"
+        }
+      ],
+      "default_language": "en"
+    },
+    {
+      "company_id": "prochime",
+      "display_name": "ProChime (Taiwan)",
+      "countries": [
+        "Taiwan"
+      ],
+      "requires_password": false,
+      "features_user": [
+        "complaint_tool",
+        "update_master",
+        "settings"
+      ],
+      "users": [
+        {
+          "user_id": "prochime_shared",
+          "name": "ProChime Shared User",
+          "email": "",
+          "role": "shared"
+        }
+      ],
+      "default_language": "zh-TW"
+    },
+    {
+      "company_id": "china_partner",
+      "display_name": "China Partner (Temporary)",
+      "countries": [
+        "China"
+      ],
+      "requires_password": false,
+      "features_user": [
+        "complaint_tool",
+        "update_master",
+        "settings"
+      ],
+      "users": [
+        {
+          "user_id": "china_shared",
+          "name": "China Partner Shared User",
+          "email": "",
+          "role": "shared"
+        }
+      ],
+      "default_language": "zh-CN"
+    }
+  ]
+}

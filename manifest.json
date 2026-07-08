@@ -1,0 +1,7 @@
+{
+  "app_name": "InSightec Complaint Service Hub",
+  "version": "0.3",
+  "build_date": "2026-07-08",
+  "description": "Styled hub with company/user selection, role-based tools, admin switch, complaint tool prototype and update ZIP workflow.",
+  "notes": "Settings visible to all users. Auto language by company/country. Top language dropdown added. Manual language setting supported."
+}

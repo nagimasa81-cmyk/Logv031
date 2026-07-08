@@ -1,0 +1,9 @@
+{
+  "default_country": "India",
+  "default_output_mode": "Copy Template",
+  "default_language": "en",
+  "save_folder": "records",
+  "last_hospital": "CMC Hospital",
+  "outlook_display_only": true,
+  "language_mode": "auto"
+}
