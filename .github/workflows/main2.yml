@@ -1,0 +1,32 @@
+
+name: Create Master Update ZIP
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run ZIP Build BAT
+        shell: cmd
+        run: 02_CREATE_UPDATE_ZIP_FROM_CURRENT_MASTER.bat
+
+      - name: Verify ZIP
+        shell: cmd
+        run: |
+          if not exist master_update_current.zip (
+            echo ZIP file was not created.
+            dir
+            exit /b 1
+          )
+
+      - name: Upload ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: master_update_current
+          path: master_update_current.zip
